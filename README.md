@@ -12,6 +12,14 @@
 - _data_ - all the data received by ourselves such as open sources and Lvivavtodor documentation.
 - _analysis_ - code for analysis, building heatmaps, histograms, dashboard and running linear regression model for certain day.
 
+## analysis
+Here we will briefly analyse the code from the analysis directory and explain certain feartures that are meant to be understood. Directory `analysis` contains the following files:
+- `bus_stops_histogram_builder.py`
+- `heatmaps_builder.py`
+- `interval_plot_builder.py`
+- `intervals_for_stops_map_builder.py`
+- `linear_regression.py`
+
 ## The team - students of IT and Business Analytics Programm:
 - Sofiia Yamkova
 - Dmytro Batko
