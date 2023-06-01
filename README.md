@@ -14,10 +14,14 @@
 
 ## Analysis
 In the analysis folder there are 5 scripts responsible for the creating all the necessary visualization used in producing the insights about the situation with the Lviv transport following the schedule.
+
 For example, `bus_stops_histogram_builder` is respondible for creating the histograms for each busstop on each route. The histogram created with this tool, will show the number of arrivals of the bus with the certain time interval.
+
 In the `heatmap_builder` there are a couple of functions that are responsible for constructing the heatmaps, based on the collected data. Produced heatmaps will show the average waiting time for the certain hour on each bus-stop present on the route. The brighter is the color, the longer on average it took for the arbitrary person to wait for the bus.
-In the interval plot builder we ...
-The script in the `intervals_for_stops_map_builder`
+
+The script in the `intervals_for_stops_map_builder` is responsible for bulding the maps for each route, so that the average waiting time would be displayed for each of the bus stops.
+
+Finally, `linear_regression` is responsible for conducting the regression analysis with the chosen metrics. The results of regression will show the ocefficients, which should be then interpreted for deriving conclusions.
 
 ## The team - students of IT and Business Analytics Programm:
 - Sofiia Yamkova
